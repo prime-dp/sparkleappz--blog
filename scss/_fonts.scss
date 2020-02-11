@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?gxc0ci');
+  src:  url('../fonts/icomoon.eot?gxc0ci#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?gxc0ci') format('truetype'),
+    url('../fonts/icomoon.woff?gxc0ci') format('woff'),
+    url('../fonts/icomoon.svg?gxc0ci#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-gamepad:before {
+  content: "\e902";
+}
+.icon-developer_mode:before {
+  content: "\e901";
+}
+.icon-pencil:before {
+  content: "\e900";
+}
+.icon-file-text2:before {
+  content: "\e926";
+}
+.icon-appleinc:before {
+  content: "\eabe";
+}
+.icon-android:before {
+  content: "\eac0";
+}

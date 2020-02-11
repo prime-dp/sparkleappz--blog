@@ -1,0 +1,204 @@
+html {
+  font-size: 16px;
+  color: $main-font-color;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.nav-item-link {
+  font-weight: 600;
+  font-size: 1rem;
+  color: $main-font-color;
+  transition: $sub-menu-transition;
+}
+
+.transparent-button {
+  color: $hover-text-and-button-header-color;
+}
+
+.header-buttons-wrapper {
+  .transparent-button {
+    &:last-child {
+      color: $call-button-color;
+    }
+  }
+}
+
+.transparent-button {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.title-caption-1 {
+  font-size: 2.8rem;
+}
+
+.title-caption-2 {
+  font-size: 3.5rem;
+}
+
+  .filled-button {
+    margin-top: 30px;
+    color: white;
+    padding: 10px 40px;
+    &:hover {
+      color: $hover-text-and-button-header-color;
+      box-shadow: 0 0 30px -8px rgba(0,0,0,.4);
+    }
+  }
+
+.about-text {
+  font-weight: 400;
+}
+
+.help-caption {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.help-section {
+  color: white;
+}
+
+.sub-menu-wrap {
+  text-transform: initial;
+  white-space: nowrap;
+}
+
+.sub-menu-link {
+  line-height: 1;
+  font-weight: 500;
+  font-size: .9rem;
+  color: $main-font-color;
+  transition: $header-hover-transition;
+  border-bottom: 1px solid #e0e0e0;
+  &:hover {
+    color: $hover-text-and-button-header-color;
+    transition: $header-hover-transition;
+    background-color: rgba(89, 141, 255, .1);
+  }
+}
+
+.another-text-color {
+  color: $hover-text-and-button-header-color;
+}
+
+.title-caption-3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.services-description-caption {
+  font-size: 1.4rem;
+}
+
+.portfolio-item-caption {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.footer-wrap {
+  font-size: .8rem;
+}
+
+.footer-list-title {
+  font-size: 1.2rem;
+}
+
+.footer-link {
+  color: $main-font-color;
+  i {
+    padding-right: .4rem;
+    color: $hover-text-and-button-header-color;
+  }
+  &:hover {
+    color: $hover-text-and-button-header-color;
+  }
+}
+
+.footer-contacts {
+  color: $main-font-color;
+  font-size: 1rem;
+  &:hover {
+    color: inherit;
+  }
+  i {
+    margin-right: .5em;
+    color: $hover-text-and-button-header-color;
+    font-size: 1.2rem;
+  }
+}
+
+.contacts-section {
+  .title-caption-3 {
+    color: white;
+  }
+}
+
+.process-item-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.process-item-number {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.team-item-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.team-item-description {
+  font-size: .9rem;
+}
+
+.industries-item-title {
+  font-size: 1.3rem;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+.sub-title {
+  font-size: .8rem;
+  font-weight: 600;
+}
+
+.client-name {
+  font-weight: 600;
+}
+
+.section-subtitles {
+  font-size: .7rem;
+}
+
+.title-post {
+  color: white;
+}
+
+.title-post-caption {
+  font-size: 1.6rem;
+}
+
+.title-post-date, .title-post-comments {
+  font-size: .8rem;
+  font-weight: 300;
+}
+
+.title-post-text {
+  font-weight: 300;
+}
+
+.blog-content-item-2-wrap {
+  .title-post-wrap {
+   color: $main-font-color;
+  }
+}
